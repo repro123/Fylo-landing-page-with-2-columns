@@ -70,8 +70,13 @@
                   id="mail"
                   class="form-email"
                   placeholder="Enter your email..."
+                  aria-describedby="error-message"
+                  autocomplete="on"
                 />
-                <span aria-hidden="true" class="form__error-message"
+                <span
+                  aria-live="polite"
+                  id="error-message"
+                  class="form__error-message"
                   >Please check your email</span
                 >
               </div>
@@ -84,7 +89,7 @@
           </div>
           <img
             src="./images/illustration-1.svg"
-            alt="First Fylo illustration"
+            alt="Two individuals manually placing their files in a large folder to save the files"
             class="illustration-1"
           />
         </div>
@@ -107,15 +112,10 @@
               </p>
               <a href="#" class="m-s2-d1-link" aria-label="see how fylo works">
                 <p>See how Fylo works</p>
-                <img
-                  src="./images/icon-arrow.svg"
-                  alt=""
-                  aria-hidden="true"
-                  focusable="false"
-                />
+                <img src="./images/icon-arrow.svg" alt="" />
               </a>
               <figure>
-                <img src="./images/icon-quotes.svg" alt="" aria-hidden="true" />
+                <img src="./images/icon-quotes.svg" alt="" />
                 <blockquote>
                   Fylo has improved our team productivity by an order of
                   magnitude. Since making the switch our team has become a
@@ -136,7 +136,7 @@
             </div>
             <img
               src="./images/illustration-2.svg"
-              alt="second hudle illustration"
+              alt="Three individuals at different locations accessing their files"
               class="main__illustration-2"
             />
           </div>
@@ -161,8 +161,13 @@
                   id="mail"
                   class="form-email input-2"
                   placeholder="Enter your email..."
+                  aria-describedby="error-message"
+                  autocomplete="on"
                 />
-                <span aria-hidden="true" class="form__error-message"
+                <span
+                  aria-live="polite"
+                  class="form__error-message"
+                  id="error-message"
                   >Please check your email</span
                 >
               </div>
@@ -182,13 +187,13 @@
         <div class="page-footer">
           <svg
             alt="Fylo"
-            aria-hidden="true"
-            focusable="false"
+            role="img"
             width="166"
             height="49"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
           >
+            <title>Fylo logo</title>
             <defs><path id="a" d="M.014.03h93.96v48.29H.015z" /></defs>
             <g fill="none" fill-rule="evenodd">
               <path
@@ -208,21 +213,11 @@
           <div class="contact-link-social">
             <div class="contact">
               <div>
-                <img
-                  src="./images/icon-phone.svg"
-                  alt=""
-                  aria-hidden="true"
-                  focusable="false"
-                />
+                <img src="./images/icon-phone.svg" alt="" />
                 <a href="tel:+1-543-123-4567">+1-543-123-4567</a>
               </div>
               <div>
-                <img
-                  src="./images/icon-email.svg"
-                  alt=""
-                  aria-hidden="true"
-                  focusable="false"
-                />
+                <img src="./images/icon-email.svg" alt="" />
                 <a href="mailto:example@fylo.com">example@fylo.com</a>
               </div>
             </div>
